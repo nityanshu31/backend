@@ -28,6 +28,9 @@ app.use('/api/emergency', emergencyRoutes);
 
 
 
+app.get("/", (req, res) => {
+  res.send("Welcome to the API!");
+});
 
 
 // Server Listening
